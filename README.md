@@ -1,4 +1,4 @@
-# Awesom-Yolo-Versions-to-TensorRT-NMSBatched
+# Awesome-Yolo-Versions-to-TensorRT-NMSBatched
 
 If you have any problems, suggestions or improvements, please submit the issue or PR.
 
