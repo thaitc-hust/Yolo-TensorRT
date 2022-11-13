@@ -1,1 +1,0 @@
-python3 add-nms.py --model save_convert/yolov4.onnx
