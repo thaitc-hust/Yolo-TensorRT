@@ -1,5 +1,7 @@
 # YOLOR CONVERT TO TENSORRT ADD BATCHEDNMS
 
+I'm fixed **"IR version checking error"** in [NNDAM's](https://github.com/NNDam/yolor) code
+
 ## Convert Yolor pytorch to onnx add post processor
 - Open file ```torch2onnx.py``` and update attribute values to suit your model
 - Run:
