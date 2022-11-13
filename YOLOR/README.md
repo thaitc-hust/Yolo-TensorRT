@@ -2,6 +2,12 @@
 
 I'm fixed **"IR version checking error"** in [NNDAM's](https://github.com/NNDam/yolor) code
 
+## Environment
+- Python3.6
+- Torch 1.8.1+cu102
+- ONNX 1.9.0
+- Tensorrt 7.2.3.4
+
 ## Convert Yolor pytorch to onnx add post processor
 - Open file ```torch2onnx.py``` and update attribute values to suit your model
 - Run:
