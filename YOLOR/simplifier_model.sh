@@ -1,0 +1,1 @@
+python3 -m onnxsim yolor_p6_x_star.onnx yolor_p6_x_star-sim.onnx --dynamic-input-shape --input-shape 1,3,448,448
