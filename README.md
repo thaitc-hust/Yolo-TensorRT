@@ -8,5 +8,5 @@ If you have any problems, suggestions or improvements, please submit the issue o
 | :---- | :---- | :---- |
 | YOLOR | [**YOLOR**](https://github.com/thaitc-hust/Awesome-Yolo-Versions-to-Tensorrt-NMSBatched/tree/main/YOLOR) | [**thaitc-hust**](https://github.com/thaitc-hust) |
 | YOLOv4 | [**YOLOv4**](https://github.com/thaitc-hust/Awesome-Yolo-Versions-to-Tensorrt-NMSBatched/tree/main/YOLOv4) | [**thaitc-hust**](https://github.com/thaitc-hust) |
-| YOLOv5 | **updating** | **updating** |
+| YOLOv5 | [**YOLOv5**](https://github.com/thaitc-hust/Awesome-Yolo-Versions-to-Tensorrt-NMSBatched/tree/main/YOLOv5) | [**thaitc-hust**](https://github.com/thaitc-hust) |
 | YOLOv7 | [**YOLOv7**](https://github.com/NNDam/TensorRT-CPP/tree/main/YOLOv7) | [**NNDam**](https://github.com/NNDam) |
