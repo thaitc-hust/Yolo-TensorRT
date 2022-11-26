@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python3 add_nms_plugins.py --model weights/yolov5.onnx

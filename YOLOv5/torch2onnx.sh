@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python torch2onnx.py --weights weights/best.pt --output weights/yolov5.onnx
