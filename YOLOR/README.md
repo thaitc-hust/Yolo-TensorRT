@@ -1,6 +1,6 @@
 # YOLOR CONVERT TO TENSORRT ADD BATCHEDNMS
 
-I'm fixed **"IR version checking error"** in [NNDam's](https://github.com/NNDam/yolor) code
+I fixed **"IR version checking error"** in [NNDam's](https://github.com/NNDam/yolor) code
 
 ## Environment
 - Python3.6
