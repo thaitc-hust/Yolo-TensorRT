@@ -1,6 +1,9 @@
 # **YOLOV8 Torch2TRT-batchedNMS**
 
 ## Environment
+
+I'm running with docker `nvcr.io/nvidia/tritonserver:22.12`
+
 - Python 3.8
 - Torch 1.13.1
 - ONNX 1.14.0
