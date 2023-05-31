@@ -1,10 +1,13 @@
-# **YOLOV5 Torch2TRT-batchedNMS**
+# **YOLOV8 Torch2TRT-batchedNMS**
 
 ## Environment
-- Python3.6
-- Torch 1.8.1+cu102
-- ONNX 1.9.0
-- Tensorrt 7.2.3.4
+
+I'm running with docker `nvcr.io/nvidia/tritonserver:22.12`
+
+- Python 3.8
+- Torch 1.13.1
+- ONNX 1.14.0
+- Tensorrt 8.5.1.7
 
 ## Convert Yolov5 Pytorch to ONNX
 - Open file ```torch2onnx.py``` and update attribute values to suit your model
@@ -39,5 +42,4 @@ python3 object_detector_trt_nms.py
 ```
 
 # REFERENCE
-1. https://github.com/ultralytics/yolov5
-2. https://github.com/NNDam/yolor
+1. https://github.com/ultralytics/ultralytics
