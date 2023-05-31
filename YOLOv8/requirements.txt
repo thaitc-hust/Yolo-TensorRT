@@ -1,0 +1,17 @@
+torch==1.13.1
+torchvision==0.14.1
+onnx
+nvidia-pyindex
+onnx_graphsurgeon
+opencv-python
+opencv-python-headless
+pandas
+IPython
+psutil
+pyyaml
+tqdm
+matplotlib
+seaborn
+ultralytics
+pycuda
+tensorrt==8.5.1.7
