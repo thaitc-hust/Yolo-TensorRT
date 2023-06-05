@@ -1,0 +1,1 @@
+python /home/data2/hungpham/Triton_Infer/YOLO-to-TensorRT-NMSBatched/Yolo-nas/add_nms_plugins.py --model /home/data2/hungpham/Triton_Infer/YOLO-to-TensorRT-NMSBatched/Yolo-nas/weights/yolonas_coco_v2.onnx
