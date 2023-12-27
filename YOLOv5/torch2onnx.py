@@ -61,7 +61,7 @@ if __name__ == '__main__':
     # load model 
     model = attempt_load(model_weights, device=device, inplace=True, fuse=True)
     model.eval()
-    img = torch.zeros(1, 3, max_size, max_size).to(device)
+    img = torch.zeros(4, 3, max_size, max_size).to(device)
     
     for _ in range(2):
         y = model(img)  # dry runs
