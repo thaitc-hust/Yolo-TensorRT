@@ -10,7 +10,7 @@
 - Open file ```torch2onnx.py``` and update attribute values to suit your model
 - Run: 
 ```Shell
-CUDA_VISIBLE_DEVICES=1 python torch2onnx.py --weights weights/<your_model_name>.pt --output weights/<your_output_model_name>.onnx
+CUDA_VISIBLE_DEVICES=1 python torch2onnx.py --weights weights/<your_model_name>.pt --output weights/<your_output_model_name>.onnx --max_size 640
 ```
 ## Add NMS Batched to onnx model
 - Open file ```add_nms_plugins.py``` and update attribute values to suit your model
@@ -24,9 +24,9 @@ python3 add_nms_plugins.py --model weights/<your_output_model_name>.onnx
 /usr/src/tensorrt/bin/trtexec --onnx=weights/<your_output_model_name>-nms.onnx \
                                 --saveEngine=weights/<your_output_trt_model_name>.trt \
                                 --explicitBatch \
-                                --minShapes=input:1x3x416x416 \
-                                --optShapes=input:1x3x896x896 \
-                                --maxShapes=input:1x3x896x896 \
+                                --minShapes=input:1x3x640x640 \
+                                --optShapes=input:1x3x640x640 \
+                                --maxShapes=input:4x3x640x640 \
                                 --verbose \
                                 --device=1
 ```
